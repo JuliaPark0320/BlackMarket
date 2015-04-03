@@ -1,6 +1,6 @@
 var storeListModule = angular.module('myApp.storeListModule', []);
 
-storeListModule.controller('registerCtrl',['$scope', function($scope){
+storeListModule.controller('registerCtrl',['$scope, storeFactory', function($scope, storeFactory){
 
     $scope.name = '파리바게트';
     $scope.discount = '50';
@@ -8,5 +8,11 @@ storeListModule.controller('registerCtrl',['$scope', function($scope){
     $scope.imageUrl = 'http://cfile205.uf.daum.net/image/24357E4F52493FD1034A89';
 
 
+    var initStoreList = function(){
+        var storeList = [];
+
+        debugger;
+
+    };
 
 }]);

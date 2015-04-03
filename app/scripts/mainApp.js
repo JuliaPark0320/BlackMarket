@@ -1,6 +1,7 @@
 'use strict';
 var myApp = angular.module('myApp', ['ngRoute', // Route service
     'myApp.storeListModule'  // controller
+    ,'myApp.storeFactory'
 ]);
 
 myApp.config(['$routeProvider', function($routeProvider) {
