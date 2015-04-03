@@ -16,3 +16,6 @@ blind,.u_skip{visibility:hidden;overflow:hidden;position:absolute;left:-999em;wi
 /*home*/
 .ico_register{display:block;background-image:url('../images/ico_register.png');background-size:18px 18px;width:18px;height:18px}
 .ico_close{display: block;background-image:url('../images/ico_close.png');background-size:18px 18px;width:18px;height:18px}
+.panel{position:relative;}
+.panel .content{position:absolute;top:50%;width:100%;color:#fff;text-align:center;}
+.dimmed{position:absolute;top:0;left:0;right:0;bottom:0;background: #000;opacity:0.75}
