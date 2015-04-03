@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head lang="ko">
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>BlackMarket</title>
-    <link rel="/css/main.css"/>
+    <!--<link rel="/css/main.css"/>-->
 </head>
 <body>
 <div class="wrap" ng-controller="registerCtrl">
-    <div class="menu" align="right">
-        <a href="#/register"><img src="../app/images/register.png" style="width: 30px"></a>
-    </div>
-    <div class="panel">
-        <h1>{{name}}</h1>
-        <div >
+    <ul class="menu">
+    <li><a href="#/register"><span class="ico_register"></span></a></li>
+    </ul>
+    <ul>
+    <li>
+        <div class="panel">
+            <h2>{{name}}</h2>
             <div>
-                <img src={{imageUrl}}>
-                <p class="num"><span style="font-size: 20px;">{{discount}}</span><span>%</span></p>
+                <img src="{{imageUrl}}" width="100%">
+                <span>{{discount}}%</span>
+                <p>{{description}}</p>
             </div>
-            <p>{{description}}</p>
         </div>
-    </div>
+    </li>
+    </ul>
 </div>
 
 </body>

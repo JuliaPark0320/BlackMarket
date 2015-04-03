@@ -1,7 +1,18 @@
-body{margin: 0;font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
-.wrap{width: 250px;margin : 0 auto}
-.menu{width: 250px;height: 30px;margin : 0 auto}
-h1{width: 250px}
-img{width: 250px}
-.num{z-index : 10;bottom: -150px;left: 14px;}
-dd{margin: -20px 2px 2px 85px}
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-size:14px;line-height:1.25em}
+body.s,.s input,.s textarea,.s select,.s button,.s table{font-family:Helvetica}
+body{position:relative; webkit-text-size-adjust:none}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+table{border-collapse:collapse}
+hr{display:none !important}
+blind,.u_skip{visibility:hidden;overflow:hidden;position:absolute;left:-999em;width:0;height:0;font-size:0;line-height:0}
+#content{clear:both;width:100%;}
+#content::after{display:block;clear:both;height:1px;margin-top:-1px;content:''}
+
+/*home*/
+.ico_register{display:block;background-image:url('../images/ico_register.png');background-size:18px 18px;width:18px;height:18px}
+.ico_close{display: block;background-image:url('../images/ico_close.png');background-size:18px 18px;width:18px;height:18px}
