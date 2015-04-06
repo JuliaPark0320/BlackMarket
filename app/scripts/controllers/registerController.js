@@ -1,12 +1,13 @@
-var storeListModule = angular.module('myApp.storeListModule', []);
+var storeListModule = angular.module('myApp.storeListModule', ['myApp.storeFactory']);
 
-storeListModule.controller('registerCtrl',['$scope', function($scope){
+storeListModule.controller('registerCtrl',['$scope', 'storeFactory', function($scope, storeFactory){
 
-    $scope.name = '파리바게트';
-    $scope.discount = '50';
-    $scope.description = '오늘빵 마감시간 10시까지 모든제품 반값에 드립니다.....';
-    $scope.imageUrl = 'http://cfile205.uf.daum.net/image/24357E4F52493FD1034A89';
+    $scope.storeList= [];
 
+    storeFactory.getStoreList().success(function(data){
+            $scope.storeList = data;
+            console.log(data);
+        });
 
 
 }]);

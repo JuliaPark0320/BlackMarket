@@ -1,0 +1,65 @@
+[
+    {
+        "id" : 1
+        ,"category" : "00"
+        ,"name" : "기특혜"
+        ,"thing" : "문화인의 뮤지컬"
+        ,"discountRate" : "50"
+        ,"price" : "50000"
+        ,"imageUrl" : "http://blog.donga.com/confetti/files/2012/08/3903641131345714931.jpg"
+    }
+    ,{
+        "id" : 2
+        ,"category" : "00"
+        ,"name" : "에버랜드/서울랜드"
+        ,"thing" : "종일자유이용권"
+        ,"discountRate" : "50"
+        ,"price" : "24500"
+        ,"imageUrl" : "http://cfs9.tistory.com/upload_control/download.blog?fhandle=YmxvZzY4MTc1QGZzOS50aXN0b3J5LmNvbTovYXR0YWNoLzAvMzIwMDAwMDAwMDAwLkpQRw%3D%3D"
+    }
+        ,{
+        "id" : 3
+        ,"name" : "강남서울밝은안과"
+        ,"thing" : "PREMIA라섹"
+        ,"discountRate" : "10"
+        ,"price" : "600000"
+        ,"imageUrl" : "http://www.smartlasik.co.kr/partnership/event/img/event_con_1.gif"
+    }
+    ,{
+        "id" : 4
+        ,"category" : "02"
+        ,"name" : "에이컷 스테이크"
+        ,"thing" : "맛나는 스테이크"
+        ,"discountRate" : "15"
+        ,"price" : "24500"
+        ,"imageUrl" : "http://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/11015513_1627543494146100_1305183853_n.jpg"
+    }
+    ,{
+        "id" : 5
+        ,"category" : "02"
+        ,"name" : "엉클스"
+        ,"thing" : "엉클스에서 음료 무료 제공"
+        ,"discountRate" : "0"
+        ,"price" : "15000"
+        ,"imageUrl" : "http://dn-l0-story.kakao.co.kr/dn/cT3DMp/hydLIrwglj/EjL06tqx3smEk0pOqqUyp0/img_l.jpg?width=740&height=494"
+    }
+    ,{
+        "id" : 6
+        ,"category" : "02"
+        ,"name" : "치킨맥스토리"
+        ,"thing" : "치맥한잔해요"
+        ,"discountRate" : "10"
+        ,"price" : "20000"
+        ,"imageUrl" : "https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10946454_1579462212309641_437889446_n.jpg"
+    }
+    ,{
+        "id" : 7
+        ,"category" : "00"
+        ,"name" : "프롬헤어"
+        ,"thing" : "기분업 헤어스탈 업"
+        ,"discountRate" : "20"
+        ,"price" : "15000"
+        ,"imageUrl" : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1WNhXXJv5xpSwSxf16qo1QCr9HCBAm7JFvwUkkxxRNa_d1KhHdQ"
+    }
+
+]
