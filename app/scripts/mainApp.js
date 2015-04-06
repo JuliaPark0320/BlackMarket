@@ -8,12 +8,12 @@ myApp.config(['$routeProvider', function($routeProvider) {
         // Login
         $routeProvider.when('/home', {
             templateUrl: 'partials/home.html',
-            controller: 'registerCtrl'
+//            controller: 'registerCtrl'
         });
 
         $routeProvider.when('/register',{
             templateUrl : 'partials/register.html',
-            controller : 'registerCtrl'
+//            controller : 'registerCtrl'
         })
 
 

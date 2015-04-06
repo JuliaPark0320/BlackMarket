@@ -8,20 +8,20 @@
 <body>
 <div class="wrap" ng-controller="registerCtrl">
     <ul class="menu">
-    <li><a href="#/register"><span class="ico_register"></span></a></li>
+        <li><a href="#/register"><span class="ico_register"></span></a></li>
     </ul>
     <ul>
-    <li>
-        <div class="panel">
-            <img src="{{imageUrl}}" width="100%">
-            <div class="dimmed"></div>
-            <div class="content">
-                <h2>{{name}}</h2>
-                <p>{{description}}</p>
-                <span>{{discount}}%</span>
+        <li ng-repeat="store in storeList">
+            <div class="panel">
+                <img ng-src={{store.imageUrl}} width="100%">
+                <div class="dimmed"></div>
+                <div class="content">
+                    <h2  ng-bind="store.name"></h2>
+                    <p ng-bind="store.discountRate"></p>
+                    <span ng-bind="store.discount"></span><span>%</span>
+                </div>
             </div>
-        </div>
-    </li>
+        </li>
     </ul>
 </div>
 
