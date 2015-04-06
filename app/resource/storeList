@@ -1,35 +1,33 @@
 [
     {
-        "id" : 1                   // id
-        ,"category" : "00"           //기타
-        ,"store" : "기특혜"          //업체명
-        ,"thing" : "문화인의 뮤지컬"   //물건
-        ,"discountRate" : "50"          //할인율
-        ,"price" : "50000"          //제공 가격
-        ,"imageUrl" : ""
+        "id" : 1
+        ,"category" : "00"
+        ,"name" : "기특혜"
+        ,"thing" : "문화인의 뮤지컬"
+        ,"discountRate" : "50"
+        ,"price" : "50000"
+        ,"imageUrl" : "http://cfile205.uf.daum.net/image/24357E4F52493FD1034A89"
     }
     ,{
         "id" : 2
         ,"category" : "00"
-        ,"store" : "에버랜드/서울랜드"
+        ,"name" : "에버랜드/서울랜드"
         ,"thing" : "에버랜드 종일자유이용권"
         ,"discountRate" : "50"
         ,"price" : "24500"
-        ,"imageUrl" : ""
+        ,"imageUrl" : "http://cfile205.uf.daum.net/image/24357E4F52493FD1034A89"
     }
         ,{
         "id" : 3
-        ,"category" : "01"   //병원
-        ,"store" : "종로 새얀안과"
         ,"thing" : "PREMIA라섹"
         ,"discountRate" : "10"
         ,"price" : "600000"
-        ,"imageUrl" : ""
+        ,"imageUrl" : "http://cfile205.uf.daum.net/image/24357E4F52493FD1034A89"
     }
     ,{
         "id" : 4
-        ,"category" : "02"  //식음료
-        ,"store" : "에이컷 스테이크"
+        ,"category" : "02"
+        ,"name" : "에이컷 스테이크"
         ,"thing" : "맛나는 스테이크"
         ,"discountRate" : "15"
         ,"price" : "24500"
@@ -38,7 +36,7 @@
     ,{
         "id" : 5
         ,"category" : "02"
-        ,"store" : "엉클스"
+        ,"name" : "엉클스"
         ,"thing" : "엉클스에서 음료 무료 제공"
         ,"discountRate" : "0"
         ,"price" : "15000"
@@ -47,7 +45,7 @@
     ,{
         "id" : 6
         ,"category" : "02"
-        ,"store" : "치킨맥스토리"
+        ,"name" : "치킨맥스토리"
         ,"thing" : "치맥한잔해요"
         ,"discountRate" : "10"
         ,"price" : "20000"
@@ -56,7 +54,7 @@
     ,{
         "id" : 7
         ,"category" : "00"
-        ,"store" : "프롬헤어"
+        ,"name" : "프롬헤어"
         ,"thing" : "기분업 헤어스탈 업"
         ,"discountRate" : "20"
         ,"price" : "15000"
