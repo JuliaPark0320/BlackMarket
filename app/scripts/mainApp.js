@@ -7,15 +7,20 @@ var myApp = angular.module('myApp', ['ngRoute', // Route service
 myApp.config(['$routeProvider', function($routeProvider) {
         // Login
         $routeProvider.when('/home', {
-            templateUrl: 'partials/home.html',
+            templateUrl: 'partials/home.html'
 //            controller: 'registerCtrl'
         });
 
         $routeProvider.when('/register',{
-            templateUrl : 'partials/register.html',
+            templateUrl : 'partials/register.html'
 //            controller : 'registerCtrl'
         })
 
+
+    $routeProvider.when('/detail',{
+        templateUrl : 'partials/showDetail.html'
+//            controller : 'registerCtrl'
+    })
 
         
         // Default

@@ -13,13 +13,15 @@
     <ul>
         <li ng-repeat="store in storeList">
             <div class="panel">
-                <img ng-src={{store.imageUrl}} width="100%">
-                <div class="dimmed"></div>
-                <div class="content">
-                    <h2 ng-bind="store.name"></h2>
-                    <p ng-bind="store.thing"></p>
-                    <p><span ng-bind="store.discountRate"></span>%</p>
-                </div>
+                <a href="#/detail">
+                    <img ng-src={{store.imageUrl}} width="100%">
+                    <div class="dimmed"></div>
+                    <div class="content">
+                        <h2 ng-bind="store.name"></h2>
+                        <p ng-bind="store.thing"></p>
+                        <p><span ng-bind="store.discountRate"></span>%</p>
+                    </div>
+                </a>
             </div>
         </li>
     </ul>

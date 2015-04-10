@@ -19,3 +19,8 @@ blind,.u_skip{visibility:hidden;overflow:hidden;position:absolute;left:-999em;wi
 .panel{position:relative;}
 .panel .content{position:absolute;top:50%;width:100%;color:#fff;text-align:center;}
 .dimmed{position:absolute;top:0;left:0;right:0;bottom:0;background: #000;opacity:0.75}
+
+/*detail*/
+.table{margin: 0 7px 7px;border: 1px solid #d5d5d5;background-color: #fff;}
+.table h3{padding: 14px;background-color: #f0f0f0;border-bottom: 1px solid #ddd;color: #508bed;}
+.table .contents{padding: 14px;color: #777;}
