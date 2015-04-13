@@ -14,7 +14,7 @@
     <div class="panel">
         <img ng-src="http://blog.donga.com/confetti/files/2012/08/3903641131345714931.jpg" width="100%" src="http://blog.donga.com/confetti/files/2012/08/3903641131345714931.jpg">
 
-        <div>
+        <div class="table space">
             <h2 ng-bind="store.name" class="ng-binding">기특혜</h2>
             <p ng-bind="store.thing" class="ng-binding">문화인의 뮤지컬</p>
             <p><span ng-bind="store.discountRate" class="ng-binding">50</span>%</p>
@@ -22,7 +22,10 @@
         </div>
         <div class="table">
             <h3>위치</h3>
-            <div class="contents">지도 넣을 공간입니다.</div>
+            <div class="contents">
+                지도 넣을 공간입니다.</br>
+                <img src="http://maps.googleapis.com/maps/api/staticmap?center=37.385821,127.124025&zoom=12&size=400x400&maptype=roadmap&sensor=true_or_false">
+            </div>
         </div>
         <div class="table">
             <h3>비고</h3>
