@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="ko">
+    <meta charset="utf-8">
+    <title>BlackMarket</title>
+    <link rel="/styles/main.css"/>
+</head>
+<body>
+<div class="wrap">
+    <ul class="menu">
+        <li><a href="#/home" class="ico_close"></a></li>
+    </ul>
+    <div class="panel">
+        <img ng-src="http://blog.donga.com/confetti/files/2012/08/3903641131345714931.jpg" width="100%" src="http://blog.donga.com/confetti/files/2012/08/3903641131345714931.jpg">
+
+        <div class="table space">
+            <h2 ng-bind="store.name" class="ng-binding">기특혜</h2>
+            <p ng-bind="store.thing" class="ng-binding">문화인의 뮤지컬</p>
+            <p><span ng-bind="store.discountRate" class="ng-binding">50</span>%</p>
+            <p>뮤지컬 최대 50%!! (1/20 오후 2시 오픈)</br></p>
+        </div>
+        <div class="table">
+            <h3>위치</h3>
+            <div class="contents">
+                지도 넣을 공간입니다.</br>
+                <img src="http://maps.googleapis.com/maps/api/staticmap?center=37.385821,127.124025&zoom=12&size=400x400&maptype=roadmap&sensor=true_or_false">
+            </div>
+        </div>
+        <div class="table">
+            <h3>비고</h3>
+            <div class="contents">* 티켓 수령 시 예매자 명함 또는 사원증 제시 필수! (미지참시 차액 지불)</div>
+        </div>
+        <div class="table">
+            <h3>문의</h3>
+            <div class="contents">010-9508-6266</div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
